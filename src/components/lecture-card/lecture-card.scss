@@ -1,0 +1,27 @@
+.lecture-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 5px solid #635cf5;
+  color: black;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgba(99, 92, 245, 0.2);
+  height: 140px !important;
+  .lecture-type {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 3px;
+  }
+  .title {
+    font-weight: bold;
+    width: 100%;
+  }
+  .professor {
+    width: 100%;
+  }
+  .place {
+    width: 100%;
+  }
+}
